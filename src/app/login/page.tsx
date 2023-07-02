@@ -9,6 +9,10 @@ export interface IFormValues {
   username: string;
   email: string;
   channel: string;
+  social: {
+    twitter: string,
+    facebook: string,
+  }
 }
 
 export default function Login(props: ILoginProps) {
